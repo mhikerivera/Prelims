@@ -50,6 +50,6 @@ def month_profit_trace(profit, reach, make_figs=True):
     else:
         print('Dimension error')  ## Make a more appropriate error statement.
 
-profit= np.array([-18000, 3000, 12000, 10000])    ## You can change the values to make different scenarios
-reach = np.array([1000, 100, 500, 10])             ## You can change the values to make different scenarios
-month_profit_trace(profit, reach, make_figs=False) ## Toggle 'make_figs' during debugging or making documentations
+profit= np.array([-18000, 3000, 12000, 10000])    
+reach = np.array([1000, 100, 500, 10])             
+month_profit_trace(profit, reach, make_figs=False) 
