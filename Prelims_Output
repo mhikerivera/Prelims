@@ -48,7 +48,7 @@ def month_profit_trace(profit, reach, make_figs=True):
             plt.savefig(f'LinAlg-Lab2-Bebang Post Eff-{int(e_month_magnitude)}@{int(theta)}.png', dpi=300)
         plt.show()
     else:
-        print('Dimension error')  ## Make a more appropriate error statement.
+        print('Error Values')  ## Make a more appropriate error statement.
 
 profit= np.array([-18000, 3000, 12000, 10000])    
 reach = np.array([1000, 100, 500, 10])             
